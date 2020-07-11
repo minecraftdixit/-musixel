@@ -1,0 +1,145 @@
+
+
+.mesh2{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+animation: back 2s alternate infinite linear;
+  height: 60vh;
+  width:100%;
+}
+@keyframes back {
+  0%{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 50%);
+
+  }
+50%{
+  ackground: linear-gradient(to right bottom, rgba(238, 245, 0, 0.2), #fcee21 65%);
+
+}
+100%{
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21a7fc 51%);
+
+}
+}
+
+#svvg{
+
+
+  animation-name: stretchRight;
+
+
+  	animation-duration: 1.5s;
+
+
+  	animation-timing-function: ease-out;
+
+
+  	transform-origin: 0% 0%;
+
+bottom: 120px;
+}
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+	}
+	40% {
+		transform: scaleX(1.02);
+	}
+	60% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(0.98);
+	}
+	80% {
+		transform: scaleX(1.01);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0.3);
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}
+}
+.text-right{
+  bottom: 30%;
+top:20px;
+text-align: right;
+  float: right;
+  font-size: 20px;
+  color:white;
+animation:texrr 1s infinite ease-in;
+animation-direction: alternate-reverse;;
+
+}
+@keyframes texrr {
+  from{
+    transform: translateY(10px);
+  }
+to{
+  transform: translateY(-10px);
+}
+}
+@media screen and (min-width: 100px) {
+  div.text-right {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 150px) {
+  div.text-right {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 100px) {
+  svg.svvg {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 150px) {
+  svg.svvg{
+        height: 50%;
+  }
+}
+.rolebtn{
+  padding-top: 20px;
+  position:absolute;
+  padding-left: 200px;
+  float: right;
+top:50 px;
+}
+
+}@media screen and (min-width: 3px) {
+  div.rolebtn {
+    bottom:1px;
+  }
+}
+@media screen and (max-width: 300px) {
+  div.rolebtn{
+      bottom: 3px;
+  }
+}
