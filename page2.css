@@ -1,3 +1,11 @@
+/* IDEA: page1 */
+.page1{
+  background-image:url("music2.svg");
+  height: 40vh;
+  width: 50%;
+ margin-left: 30px;
+}
+
 
 
 .mesh2{
