@@ -2,21 +2,21 @@
 
 
 html,body{
-  background-color: rgb(239, 247, 82);
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+background-color: red;
 
 }
 .bck {
-
+ background-color: red;
 overflow: hidden;
   background-position: center;
  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover;
-  height: 80vh;
+  height: 90vh;
 width: 100%;
 background-image: url("bck.jpg");
 animation: change 2s  3 linear;
